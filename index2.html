@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Lake County Map</title>
+</head>
+
+
+<style>
+
+body {
+	background-color: 	#D6A354;
+}
+
+
+#header	{
+
+
+	background-image: url('http://sssfoundation.webs.com/Map%20of%20Lake%20County.jpg');
+	height:500px;
+	margin-left:50px;
+	width:100%;
+	background-repeat:no-repeat;
+}
+
+
+#lake {
+	font-family:Segoe UI light,Sans-serif;
+	float:right;
+	font-size:50px;
+	color:#99CC32;
+
+}
+
+#destination {
+margin:10px;
+color:black;
+font-size:30px;
+font-family:Gabriola,Sans-serif;
+text-align: center;
+border-radius:15px	;
+text-shadow: 0 100px 100px rgba(0,205,205,.3);
+background: -moz-linear-gradient(top,  		#A84A5C,  #BF5FFF);
+}
+
+.styled-select select {
+	margin-top:10px;
+	margin-bottom:50px;
+	margin-left:70px;
+background: -moz-linear-gradient(top,  		#A84A5C,  #BF5FFF);
+background-color:white;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   border: 3px solid white;
+   border-radius: 15px;
+   height: 34px;
+   display:inline;
+   -webkit-appearance: none;
+ }
+
+ #go {
+	margin-top:4px;
+	margin-bottom:50px;
+background: -moz-linear-gradient(top,  		#A84A5C,  #BF5FFF);
+background-color:white;
+padding:5px;
+   font-size: 16px;
+   border: 3px solid white;
+   border-radius: 15px;
+   display:inline;
+   position:relative;
+
+
+
+ }
+
+
+</style>
+		
+
+		<body>
+
+			<div id="header">
+			</div>
+
+			<div id="destination">
+						Choose Your Destination
+			</div>
+
+			<div class="styled-select">
+			   <select>
+			      <option>Upperlake</option>
+			      <option>Lakeport</option>
+			      <option>Kelseyville</option>
+			      <option>Cobb</option>
+			      <option>Middletown</option>
+			      <option>Hidden Valley</option>
+			      <option>Lower Lake</option>
+			      <option>Clear Lake</option>
+			      <option>Spring Valley</option>
+			      <option>Lucerne</option>
+			   </select>
+			   <span id="go">
+			   	GO
+			   </span>
+			</div>
+
+
+		</body>
+
+</html>
